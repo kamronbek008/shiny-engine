@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.demo{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    display: flex;
+    /* display: flex; ichidagi elemenlarni yonma-yon qiladi */
+    align-items: center;
+    align-items: flex-start;
+    /* align-items: flex-start; => yuqoriga */
+    /* align-items: flex-end; => pastga */
+    justify-content: center;
+    /* flex-start; => yuqoriga */  
+    /* flex-end; => pastga */ 
+}
+.first{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #2e2d2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box > i{
+    font-size: 60px;
+    color: #fff;
+} 
+.box > p{
+    font-size: 22px;
+    color: #fff;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 400px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse; /* elemetni iichidagi sig'maganlarini pastga tushirib yuboradi */
+}
+.box{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
